@@ -1,0 +1,2 @@
+export const ADD_CARD_TO_COLUMN = "ADD_CARD_TO_COLUMN";
+export const MOVE_CARD_TO_COLUMN = "MOVE_CARD_TO_COLUMN";

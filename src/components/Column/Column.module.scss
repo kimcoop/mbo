@@ -1,0 +1,37 @@
+@import "styles/_core.scss";
+
+.columnItem {
+    display: flex;
+    width: 100%;
+    color: white;
+    flex-direction: column;
+
+    + .columnItem {
+        margin-left: 25px;
+    }
+}
+
+.columnHeader {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.columnHeader--1 {
+    background: $color-col-1;
+}
+
+.columnHeader--2 {
+    background: $color-col-2;
+}
+
+.columnHeader--3 {
+    background: $color-col-3;
+}
+
+.columnHeader--4 {
+    background: $color-col-4;
+}
