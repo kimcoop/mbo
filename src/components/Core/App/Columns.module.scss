@@ -1,0 +1,9 @@
+@import 'styles/_core.scss';
+
+.columnList {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+    margin: 0 auto;
+}
