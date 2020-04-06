@@ -1,6 +1,6 @@
-import { MOVE_CARD_TO_COLUMN, ADD_CARD_TO_COLUMN } from "redux/action-types";
+import { MOVE_CARD_TO_COLUMN, ADD_CARD_TO_COLUMN } from 'redux/action-types'
 
-export const addCardToColumn = index => {
+export const addCardToColumn = (index) => {
     const text = window.prompt('Card content?')
     return {
         type: ADD_CARD_TO_COLUMN,

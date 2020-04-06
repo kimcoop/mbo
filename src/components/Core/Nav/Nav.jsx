@@ -4,7 +4,7 @@ import {
     Navbar,
     NavbarToggler,
     NavbarBrand,
-    // Nav,
+    Nav as RSNav,
     NavItem,
     NavLink,
     UncontrolledDropdown,
@@ -20,11 +20,11 @@ const Nav = (props) => {
     const toggle = () => setIsOpen(!isOpen)
 
     return (
-        <div>
-            <Navbar color="light" light expand="md">
+        <RSNav>
+            <Navbar>
                 <NavbarBrand href="/">Minority Business Owners List</NavbarBrand>
             </Navbar>
-        </div>
+        </RSNav>
     )
 }
 

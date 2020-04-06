@@ -1,5 +1,4 @@
-export const getColumns = store =>
-  store && store.columns ? store.columns.columns : [];
+export const getColumns = (store) => (store && store.columns ? store.columns.columns : [])
 //
 // export const getTodoById = (store, id) =>
 //   store && store.todos && store.todos.byIds

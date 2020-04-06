@@ -1,6 +1,4 @@
-@import-normalize; /* bring in normalize.css styles */
-
-@import 'styles/_core.scss';
+@import 'styles/core.scss';
 
 .app {
     background: $color-background;
@@ -8,4 +6,6 @@
     min-height: 100vh;
     min-width: 100vw;
     padding: 0;
+    overflow: scroll; // without this, bg color doesn't flow into whole screen, wtf?
+    font-family: $roboto;
 }
